@@ -1,4 +1,4 @@
-import { fixture } from './8.fixture';
+import { fixture } from './008.fixture';
 
 /**
  * @link https://projecteuler.net/problem=8

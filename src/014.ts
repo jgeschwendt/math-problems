@@ -1,4 +1,4 @@
-import { collatzSequenceCount } from "../lib";
+import { collatzSequenceCount } from "./lib";
 
 /**
  * @link https://projecteuler.net/problem=14

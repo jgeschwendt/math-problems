@@ -1,4 +1,4 @@
-import { fibonacci } from '../lib';
+import { fibonacci } from './lib';
 
 /**
  * @link https://projecteuler.net/problem=2

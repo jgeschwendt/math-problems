@@ -1,4 +1,4 @@
-import { primeGenerator } from '../lib';
+import { primeGenerator } from './lib';
 
 /**
  * @link https://projecteuler.net/problem=7

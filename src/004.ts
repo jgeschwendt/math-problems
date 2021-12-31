@@ -1,4 +1,4 @@
-import { is } from '../lib';
+import { is } from './lib';
 
 /**
  * @link https://projecteuler.net/problem=4

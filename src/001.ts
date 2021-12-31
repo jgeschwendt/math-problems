@@ -1,4 +1,4 @@
-import { array } from '../lib'
+import { array } from './lib'
 
 /**
  * @link https://projecteuler.net/problem=1

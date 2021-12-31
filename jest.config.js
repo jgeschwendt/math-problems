@@ -5,7 +5,7 @@ module.exports = {
     sort: 'titleAsc',
   }]],
   testRegex: [
-    /\d+-\d+\/\d+.ts/,
+    /\d+.ts/,
   ],
   testSequencer: './jest.sequencer.js',
 };

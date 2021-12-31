@@ -1,4 +1,4 @@
-import { divisorsCount } from '../lib';
+import { divisorsCount } from './lib';
 
 /**
  * @link https://projecteuler.net/problem=12
