@@ -1,5 +1,5 @@
-import * as array from "./array";
-import * as is from "./predicates";
+import * as array from './array';
+import * as is from './predicates';
 
 function collatzSequenceCount(
   number: number,

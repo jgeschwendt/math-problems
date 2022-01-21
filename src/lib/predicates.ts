@@ -1,6 +1,6 @@
-export const palindrome = (term: number | string): boolean => (
-  (string: string): boolean => string === Array.from(string).reverse().join('')
-)(term.toString());
+export const palindrome = (term: number | string): boolean =>
+  ((string: string): boolean =>
+    string === Array.from(string).reverse().join(''))(term.toString());
 
 export const prime = (number: number): boolean => {
   if (number === 1) {

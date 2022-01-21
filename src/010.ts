@@ -18,7 +18,7 @@ describe('Problem 10', () => {
       }
     }
 
-    return primes.reduce((t, n) => (t + n), 0);
+    return primes.reduce((t, n) => t + n, 0);
   };
 
   test('Summation of primes', () => {

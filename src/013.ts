@@ -5,7 +5,7 @@ import { fixture } from './013.fixture';
  */
 describe('Problem 13', () => {
   const solution = () => {
-    const sum = fixture.reduce((t, n) => (t + n), BigInt(0));
+    const sum = fixture.reduce((t, n) => t + n, BigInt(0));
 
     return Number(sum.toString().slice(0, 10));
   };

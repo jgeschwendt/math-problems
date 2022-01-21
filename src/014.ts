@@ -1,4 +1,4 @@
-import { collatzSequenceCount } from "./lib";
+import { collatzSequenceCount } from './lib';
 
 /**
  * @link https://projecteuler.net/problem=14
@@ -31,4 +31,3 @@ describe('Problem 14', () => {
     expect(solution(1000000)).toBe(837799);
   });
 });
-

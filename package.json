@@ -21,6 +21,10 @@
     "jest": "27.4.5",
     "jest-html-reporter": "3.4.2"
   },
+  "prettier": {
+    "quoteProps": "consistent",
+    "singleQuote": true
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }

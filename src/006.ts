@@ -3,8 +3,8 @@
  */
 describe('Problem 6', () => {
   const solution = (limit: number): number => {
-    const sumOfSquares = (2 * limit + 1) * (limit + 1) * limit / 6;
-    const squareOfSums = Math.pow(limit * (limit + 1) / 2, 2);
+    const sumOfSquares = ((2 * limit + 1) * (limit + 1) * limit) / 6;
+    const squareOfSums = Math.pow((limit * (limit + 1)) / 2, 2);
 
     return squareOfSums - sumOfSquares;
   };
