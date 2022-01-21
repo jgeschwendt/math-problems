@@ -43,6 +43,13 @@ function divisorsCount(n: number): number {
   return count;
 }
 
+function factorial(num: bigint): bigint {
+  if (num > 0) {
+    return num * factorial(num - BigInt(1));
+  }
+  return BigInt(num === 0n ? 1 : -1);
+}
+
 function fibonacci(limit: number): number[] {
   const terms = [1, 2];
 
@@ -69,6 +76,7 @@ export {
   array,
   collatzSequenceCount,
   divisorsCount,
+  factorial,
   fibonacci,
   is,
   primeGenerator,
