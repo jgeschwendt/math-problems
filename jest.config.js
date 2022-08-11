@@ -12,4 +12,7 @@ module.exports = {
   ],
   testRegex: [/\d+.ts/],
   testSequencer: './jest.sequencer.js',
+  transform: {
+    '^.+\\.ts$': '@swc/jest',
+  },
 };
